@@ -34,6 +34,10 @@ namespace AS2324._3G.Prof.CalcolatriceWF
             // comunichiamo a video il risultato
 
             lblRisultato.Text = $"Risultato {risultato}";
+            if (risultato >= 0)
+                lblRisultato.ForeColor = Color.Green;
+            else
+                lblRisultato.ForeColor = Color.Red;
         }
     }
 }
