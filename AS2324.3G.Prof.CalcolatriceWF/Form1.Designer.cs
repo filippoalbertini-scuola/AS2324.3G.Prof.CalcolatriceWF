@@ -74,15 +74,15 @@
             // 
             cmbOperatore.FormattingEnabled = true;
             cmbOperatore.Items.AddRange(new object[] { "+", "-", "*", "/" });
-            cmbOperatore.Location = new Point(196, 165);
+            cmbOperatore.Location = new Point(235, 168);
             cmbOperatore.Name = "cmbOperatore";
-            cmbOperatore.Size = new Size(151, 28);
+            cmbOperatore.Size = new Size(59, 28);
             cmbOperatore.TabIndex = 2;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(102, 168);
+            label3.Location = new Point(134, 168);
             label3.Name = "label3";
             label3.Size = new Size(77, 20);
             label3.TabIndex = 1;
@@ -90,12 +90,13 @@
             // 
             // btnCalcola
             // 
-            btnCalcola.Location = new Point(224, 223);
+            btnCalcola.Location = new Point(208, 215);
             btnCalcola.Name = "btnCalcola";
-            btnCalcola.Size = new Size(94, 29);
+            btnCalcola.Size = new Size(123, 49);
             btnCalcola.TabIndex = 3;
             btnCalcola.Text = "=";
             btnCalcola.UseVisualStyleBackColor = true;
+            btnCalcola.Click += btnCalcola_Click;
             // 
             // lblRisultato
             // 
